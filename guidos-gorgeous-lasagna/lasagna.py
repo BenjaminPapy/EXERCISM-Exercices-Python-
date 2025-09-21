@@ -55,7 +55,7 @@ def elapsed_time_in_minutes(number_of_layers: int, elapsed_bake_time: int) -> in
     :return: int - Give the time elpased for completing the recipe.
     """
 
-    return number_of_layers + elapsed_bake_time
+    return (number_of_layers * 2) + elapsed_bake_time
 
 #test perso
 print(elapsed_time_in_minutes(40, 60))
